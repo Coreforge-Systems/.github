@@ -1,6 +1,6 @@
 <div align="center">
 
-# Nexmotive Systems
+# Coreforge Systems
 
 ### Industrial software for machines, embedded devices, and service teams.
 
@@ -10,9 +10,9 @@
 
 ---
 
-## About Nexmotive
+## About Coreforge Systems
 
-Nexmotive Systems develops software for industrial machines, embedded devices, and engineering teams.
+Coreforge Systems develops software for industrial machines, embedded devices, and engineering teams.
 
 Our focus is on software that connects directly to physical equipment and helps engineers configure devices, diagnose failures, inspect telemetry, analyze machine state, and perform service operations more efficiently.
 
@@ -256,12 +256,12 @@ Physical validation is performed using embedded development hardware such as ESP
 
 ## What We Are Building Towards
 
-Nexmotive Systems aims to build reusable engineering tools for machine manufacturers and industrial technology companies.
+Coreforge Systems aims to build reusable engineering tools for machine manufacturers and industrial technology companies.
 
 Our long-term product direction includes:
 
 ```text
-Nexmotive Systems
+Coreforge Systems
 
 ├── DevicePilot
 │   Device diagnostics & service platform
@@ -300,6 +300,6 @@ Current development priorities:
 
 ---
 
-## Nexmotive Systems
+## Coreforge Systems
 
 **Industrial software for connected machines, embedded devices, diagnostics, and automation.**
