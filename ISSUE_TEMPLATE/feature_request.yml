@@ -1,0 +1,43 @@
+name: Feature request
+description: Propose a product or engineering improvement
+title: "[Feature]: "
+labels:
+  - type:feature
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user or engineering problem, not only the implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Core
+        - Protocol
+        - Transport
+        - Simulator
+        - Desktop UI
+        - Firmware
+        - Diagnostics
+        - Configuration
+        - Telemetry
+        - Reporting
+        - Tooling / CI
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Compatibility / safety impact
