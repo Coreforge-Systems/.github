@@ -1,29 +1,9 @@
-# Security Policy
+# Security
 
-Coreforge Systems develops software that may interact with industrial and embedded equipment.
+[Русский](SECURITY_RU.md) | [English](SECURITY_EN.md)
 
-## Reporting a vulnerability
+Выберите язык документации. / Choose the documentation language.
 
-Do **not** open a public issue for a suspected vulnerability. Use GitHub private vulnerability reporting when enabled for the affected repository.
+**Не создавайте публичный issue при подозрении на уязвимость.** Используйте приватные сообщения об уязвимостях GitHub, если они включены в затронутом репозитории.
 
-Include when possible:
-
-- affected repository and version;
-- affected component;
-- technical description;
-- reproduction steps;
-- potential impact;
-- sanitized logs or traces;
-- suggested mitigation.
-
-## Scope
-
-Examples include unauthorized device commands, bypass of write restrictions, unsafe replay, authentication bypass, memory corruption from malformed protocol input, leakage of sensitive data into support packages or logs, or insecure update handling.
-
-## Sensitive information
-
-Never include real credentials, private keys, production tokens, customer secrets, or unredacted proprietary device data.
-
-## Industrial safety
-
-Security fixes must not weaken hardware safety mechanisms, safety interlocks, or equipment protections.
+**Do not open a public issue for a suspected vulnerability.** Use GitHub private vulnerability reporting when enabled for the affected repository.
